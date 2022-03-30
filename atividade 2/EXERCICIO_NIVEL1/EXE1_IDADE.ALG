@@ -1,24 +1,24 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Hiram Amaral 
-// DescriÁ„o   : Calcula a idade do usu·rio.
+// Descri√ß√£o   : Calcula a idade do usu√°rio.
 // Autor(a)    : alunocetam22
 // Data atual  : 25/03/2022
 
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis
+// Se√ß√£o de Declara√ß√µes das vari√°veis
   nome: caractere
   ano_at, ano_nc, idade: inteiro
 
 Inicio
 
-  escreva("Digite seu nome")
+  escreval ("Digite seu nome")
   leia(nome)
 
-  escreva("Digite o ano de seu nascimento")
+  escreval ("Digite o ano de seu nascimento")
   leia(ano_nc)
 
-  escreva("Digite o ano atual")
+  escreval ("Digite o ano atual")
   leia(ano_at)
 
   idade <- ano_at - ano_nc
